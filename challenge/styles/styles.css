@@ -1,0 +1,52 @@
+header h1 {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+h1:hover{
+    color: black;
+}
+body {
+    max-width: 1500px;
+    background-color:#FCA6C9;
+}
+main p {
+    display: block;
+    margin: 0 auto;
+    width: 23%;
+    text-align: center;
+    color: white;
+    font-size: 75%;
+}
+.signiture{
+margin: 25px auto;
+font-size: 1em;
+font-weight: bold;
+}
+ol {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+li {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+main img {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+.quote {
+    display: block;
+    width: 18%;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 2em;
+}
+footer{
+    display: block;
+    text-align: center;
+    width: 22%;
+    margin: 0 auto;
+}

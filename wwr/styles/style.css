@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Yeon+Sung&display=swap');
 #content {
+    background-color: #ffefda;
     max-width: 1600px;
-    margin: 0 auto;
+    margin: 0 auto;    
+}
+#logo-link {
+    padding-top: 5px;
 }
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
+}
+#hero-img {
+    width: 100%;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -16,8 +25,21 @@ nav a {
 main section {
     text-align: center;
 }
-body {
-    background-color: #ffefda;
+main section img {
+    box-sizing: border-box;
+}
+.card-img {
+    border: 10px solid #006B8F;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+body {   
+    background-color: #f8f3ec; 
+    font-family:"Hind Siliguri", Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header {
     background-color:rgba(62, 62, 62, 1);
@@ -30,6 +52,10 @@ nav a:hover {
     text-decoration: none;
     color:#006B8F;
     background-color: #ffefda;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     color:#FF9F1C;
@@ -41,16 +67,22 @@ nav a:hover {
 }
 .msg {
     background-color:#FFBF69;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color:#006B8F;
 }
 .msg p {
     color:#006B8F;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color:#3e3e3e;
     color:white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     text-decoration: none;
@@ -65,21 +97,28 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .home-title {
     color:#FF9F1C;
+    font-family:"Yeon Sung", Verdana, Arial;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color:#FF9F1C;
+    font-family:"Yeon Sung", Verdana, Arial;
 }
 h2 {
     color: #FF9F1C;
+    font-family:"Yeon Sung", Verdana, Arial;
+    margin: 0;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
-}
-#hero-img {
-    width: 100%;
+    padding-top: 10px;
 }

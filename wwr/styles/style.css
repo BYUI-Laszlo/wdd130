@@ -231,7 +231,7 @@ h2 {
 }
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .blog-grid {
         display: block;
         height: auto;
     }

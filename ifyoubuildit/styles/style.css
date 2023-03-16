@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&family=Tienne:wght@400;700;900&display=swap');
-
 :root {
 
     --primary-color: #222629;
     --secondary-color: #474B4F;
     --accent1-color: #61892F;
     --accent2-color: #86C232;
-    --accent3-color: #;
 
 
     /* change the values below to your chosen font(s) */
@@ -22,7 +20,7 @@ body {
     background-color: #474B4F;
 }
 
-h1,
+h1, 
 h2,
 h3,
 h4,
@@ -68,6 +66,7 @@ p {
 
 a {
     text-decoration: none;
+    color: white;
 }
 /*---------------------------------------------------*/
 
@@ -168,12 +167,20 @@ li {
     color:white;
     padding: 5px;
     width: 150px; 
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
 }
 .button:hover {
     background-color:#86C232;
     color: brown;
     font-weight: 700;
 }
+.button:active{
+    background-color: #61892F;
+    color: brown;
+    border: 5px inset #000;
+    box-shadow: none;
+  }
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

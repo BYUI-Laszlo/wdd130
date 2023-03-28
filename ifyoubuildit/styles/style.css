@@ -254,9 +254,22 @@ footer {
     grid-row: 8/9;
 }
 /*--- It's Easy Page ---*/
+#main_easy {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 50px;
+    gap: 50px;
+}
+.easy_p {
+    grid-column: 1/6;
+}
+.easy_img {
+    grid-column: 2/5;
+}
+
 
 @media screen and (max-width: 900px) {
-    #hero, main, header {
+    #hero, main, header, #main_easy {
         display: block;
         height: auto;
     }

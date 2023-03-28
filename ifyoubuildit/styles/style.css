@@ -256,15 +256,17 @@ footer {
 /*--- It's Easy Page ---*/
 #main_easy {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 1fr 6fr 1fr;
     padding: 50px;
-    gap: 50px;
 }
 .easy_p {
-    grid-column: 1/6;
+    grid-column: 1/4;
+}
+.easy_imgbox {
+    grid-column: 2/3;
 }
 .easy_img {
-    grid-column: 2/5;
+    width: 100%;
 }
 
 
